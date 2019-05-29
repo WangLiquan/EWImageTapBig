@@ -14,6 +14,7 @@
 		84C28A09229E61C200C5F4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C28A07229E61C200C5F4E2 /* LaunchScreen.storyboard */; };
 		84C28A14229E61C200C5F4E2 /* EWImageTapBigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C28A13229E61C200C5F4E2 /* EWImageTapBigTests.swift */; };
 		84C28A1F229E61C200C5F4E2 /* EWImageTapBigUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C28A1E229E61C200C5F4E2 /* EWImageTapBigUITests.swift */; };
+		84C28A2D229E61DE00C5F4E2 /* EWImageAmplification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C28A2C229E61DE00C5F4E2 /* EWImageAmplification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		84C28A1A229E61C200C5F4E2 /* EWImageTapBigUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWImageTapBigUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C28A1E229E61C200C5F4E2 /* EWImageTapBigUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWImageTapBigUITests.swift; sourceTree = "<group>"; };
 		84C28A20229E61C200C5F4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C28A2C229E61DE00C5F4E2 /* EWImageAmplification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWImageAmplification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				84C289FE229E61C100C5F4E2 /* AppDelegate.swift */,
 				84C28A00229E61C100C5F4E2 /* ViewController.swift */,
+				84C28A2C229E61DE00C5F4E2 /* EWImageAmplification.swift */,
 				84C28A02229E61C100C5F4E2 /* Main.storyboard */,
 				84C28A05229E61C200C5F4E2 /* Assets.xcassets */,
 				84C28A07229E61C200C5F4E2 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C28A01229E61C100C5F4E2 /* ViewController.swift in Sources */,
+				84C28A2D229E61DE00C5F4E2 /* EWImageAmplification.swift in Sources */,
 				84C289FF229E61C100C5F4E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
