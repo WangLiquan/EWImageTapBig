@@ -11,8 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     private let imageView: UIImageView = {
-        let imageView = UIImageView(frame: CGRect(x: (EWidth - 200) / 2, y: 250, width: 200, height: 200))
-        imageView.backgroundColor = UIColor.gray
+        let imageView = UIImageView(frame: CGRect(x: (EWidth - 182) / 2, y: 250, width: 182, height: 103.5))
         imageView.isUserInteractionEnabled = true
         imageView.image = UIImage(named: "back")
         return imageView
