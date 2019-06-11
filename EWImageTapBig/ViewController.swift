@@ -17,19 +17,18 @@ class ViewController: UIViewController {
         imageView.image = UIImage(named: "back")
         return imageView
     }()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         drawMyView()
     }
-    private func drawMyView(){
+    private func drawMyView() {
         self.view.addSubview(imageView)
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapOnImageView))
         imageView.addGestureRecognizer(tap)
     }
-    @objc private func tapOnImageView(){
+    @objc private func tapOnImageView() {
         EWImageAmplification.shared.scanBigImageWithImageView(currentImageView: imageView, alpha: 1)
     }
 
 }
-
