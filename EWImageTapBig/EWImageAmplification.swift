@@ -15,6 +15,11 @@ let EHeight = UIScreen.main.bounds.height
 class EWImageAmplification: NSObject {
     static let shared = EWImageAmplification()
 
+    /// 点击放大方法
+    ///
+    /// - Parameters:
+    ///   - currentImageView: 要放大的imageView
+    ///   - alpha: 背景透明度(0-1)
     func scanBigImageWithImageView(currentImageView: UIImageView, alpha: CGFloat) {
         let image = currentImageView.image
         let window = UIApplication.shared.keyWindow
