@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         imageView.addGestureRecognizer(tap)
     }
     @objc private func tapOnImageView(){
-        EWImageAmplification().scanBigImageWithImageView(currentImageView: imageView, alpha: 1)
+        EWImageAmplification.shared.scanBigImageWithImageView(currentImageView: imageView, alpha: 1)
     }
 
 }

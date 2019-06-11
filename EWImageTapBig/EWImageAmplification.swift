@@ -13,6 +13,7 @@ let EWidth = UIScreen.main.bounds.width
 let EHeight = UIScreen.main.bounds.height
 
 class EWImageAmplification: NSObject {
+    static let shared = EWImageAmplification()
     private let backGroundView = UIView(frame: CGRect(x: 0, y: 0, width: EWidth, height: EHeight))
     
     private let imageView = UIImageView(frame: oldFrame)
